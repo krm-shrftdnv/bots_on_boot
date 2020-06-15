@@ -31,7 +31,7 @@ public class DiscordBotConfig {
     public JDA jda() throws LoginException {
 //        JDABuilder builder = JDABuilder.createDefault(env.getRequiredProperty("discord.token"));
         // YOUR DISCORD TOKEN
-        String discordToken = "NzA5MzEyMjgyMzU3NjYxNzE2.Xs-maQ.9d1C-PItcXZvBBGa7mbI3Wfz7Vg";
+        String discordToken = "";
 
         JDABuilder builder = JDABuilder.createDefault(discordToken);
         builder.setActivity(Activity.listening("@krm_as_bot"));

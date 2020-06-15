@@ -44,7 +44,7 @@ public class TelegramReceiver extends TelegramLongPollingBot {
 //        return env.getRequiredProperty("telegram.token");
 
         //YOUR TELEGRAM TOKEN
-        String telegramToken = "867324968:AAF1j3xiica41MDwaBbfG7cQuG_6Viv9aLA";
+        String telegramToken = "";
 
         return telegramToken;
     }
